@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <main>
+      <section class="loading-main">
+      <header id="header">
+        <!-- <div class="overlay overlay-lg">
+          <img src="./img/la.png" class="letters" alt="letters">
+                <img src="./img/shapes/square.png" class="shape square" alt="square" />
+                <img src="./img/shapes/circle.png" class="shape circle" alt="circle" />
+                <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="half-circle"/>
+                <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="half-circle"/>
+                <img src="./img/shapes/x.png" class="shape xshape" alt="xshape" />
+                <img src="./img/shapes/wave.png" class="shape wave wave1" alt="wave" />
+                <img src="./img/shapes/wave.png" class="shape wave wave2" alt="wave" />
+                <img src="./img/shapes/triangle.png" class="shape triangle" alt="triangle" />
+        </div> -->
+
+        <nav>
+          <div class="container">
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#portfolio">work</a>
+                </li>
+                <li>
+                  <a href="#about">About me</a>
+                </li>
+              
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+               
+              </ul>
+            </div>
+
+            <!-- <div class="logo">
+              <img src="./img/la.png" alt="logo" />
+            </div> -->
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container">
+            <div class="column-1">
+              <h1 class="header-title" data-aos="zoom-in" data-aos-duration="2000">Linda Andersson</h1>
+              <p class="text header-text">
+                <span class="typed-text"></span>
+                <span class="cursor">&nbsp;</span>
+              </p>
+              
+            </div>
+
+            <div class="column-2 image">
+              
+          </div>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="mouse"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+        </div>
+      </header>
+
+      <section class="services section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-aos="slide-down" data-title="Here's my">Toolbox</h3>
+          </div>
+        <!-- cards -->
+          <div class="cards">
+            <div class="card-wrap">
+              <div class="card fed" data-card="code">
+                <div class="card-content z-index" data-aos="zoom-in" data-aos-duration="2000">
+                  <img src="./img/shapes/cod.png" class="icon icon-cards" alt="code" />
+                  <div id="icon-code"></div>
+                  <h3 class="title-sm">Development</h3>
+                  <p class="text-card">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ex?
+                      <ul class="text-card-li">
+                        <li class="list-card">HTML</li>
+                        <li class="list-card">Css/scss</li>
+                        <li class="list-card">jquery</li>
+                        <li class="list-card">Javascript</li>
+                        <li class="list-card">Wordpress</li>
+                        <li class="list-card">Angular</li>
+                      </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card design" data-card="design">
+                <div class="card-content" data-aos="zoom-in" data-aos-duration="3000"  >
+                  <img src="./img/shapes/design.png" class="icon icon-cards" alt="desig" />
+                  <div id="icon-design"></div>
+                  <h3 class="title-sm">Design</h3>
+                  <p class="text-card">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ex?
+                    <ul class="text-card-li">
+                      <li class="list-card">Photoshop</li>
+                      <li class="list-card">Illustrator</li>
+                      <li class="list-card">InDesign</li>
+                      <li class="list-card">Adobe XD</li>
+                      <li class="list-card">After Effects</li>
+                      <li class="list-card">Figma</li>
+                    </ul>
+                  </p>
+                      
+              </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card skills" data-card="skills">
+                <div class="card-content z-index" data-aos="zoom-in" data-aos-duration="3000" >
+                  <div id="icon-skills"></div>
+                  <h3 class="title-sm">Skills</h3>
+                  <p class="text-card">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing.
+                      <ul class="text-card-li">
+                        <li class="list-card">Blender</li>
+                        <li class="list-card">Verge 3D</li>
+                        <li class="list-card">Aglie and scrum</li>
+                        <li class="list-card punkt">.</li>
+                        <li class="list-card punkt">.</li>
+                        <li class="list-card punkt">.</li>
+                      </ul>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img src="./img/shapes/square.png" class="shape square" alt="square" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="circle" />
+            <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="half-circle"/>
+            <img src="./img/shapes/x.png" class="shape xshape" alt="xshape" />
+            <img src="./img/shapes/wave.png" class="shape wave wave" alt="wave" />
+            <img src="./img/shapes/triangle.png" class="shape triangle" alt="triangle" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-aos="slide-down" data-aos-duration="1000"  data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter" data-aos="zoom-in" data-aos-duration="1000">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn"  data-filter=".webdev">Web dev</button>
+              <button class="filter-btn"  data-filter=".appdev">Mobile app</button>
+              <button class="filter-btn"  data-filter=".design">Graphic design</button>
+            </div>
+            <div class="grid">
+              <div class="grid-item webdev design" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/fotograf24.png" alt="fotograf24"  />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Fotograf24.se</h3>
+                      <a href="https://fotograf24.se/"><i class="fas fa-desktop pf-icon"></i></a>
+                      <a href="https://github.com/ullagulla/Fotograf24.git"><i class="fab fa-github pf-icon"></i></a>
+                      <a href="https://fotograf24.se/"><i class="fas fa-palette pf-icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/webbyrå-logo.jpg " alt="webbyrå logo"  />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo design</h3>
+                      <h5>Webbyrån Stockholm</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item design webdev" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img class="object-fit_cover" src="./img/portfolio/gecko.png" alt="gecko" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Gecko</h3>
+                      <h5>Webshop</h5>
+                      <a href="https://github.com/lindacool/Gecko-Linda.git"><i class="fab fa-github pf-icon"></i></a>
+                      <a href="https://www.figma.com/file/5KSBHOZdDAWjkB4f8J87Lz/Gecko"><i class="fas fa-palette pf-icon"></i></a>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>App Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item  webdev" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item  webdev" data-aos="flip-up" data-aos-duration="1000">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header" data-aos="slide-down" data-aos-duration="1000">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+          <div class="section-body grid-2">
+            <div class="column-1" data-aos="fade-right" data-aos-duration="1000">
+              <h3 class="title-sm">Hi!</h3>
+              <p class="text">
+                
+Hi I’m Linda — a outgoing Front End Developer based in Stockholm, with a love for all things design and a continuous passion for problem solving. I’m truly passionate about creating and improving user experiences, and my curiosity in design knows no bounds. 
+
+              </p>
+              <div class="downbtn">
+                <a class="downloadbtn" href="./img/CV.pdf" download="cv"> Download cv</a>
+
+              </div>
+            </div>
+            <div class="column-2" data-aos="fade-left" data-aos-duration="1000">
+             <img src="./img/about.me.png" alt="me">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="section-header" data-aos="slide-down" data-aos-duration="1000">
+            <h3 class="title" data-title="Get in touch">Contact</h3>
+          </div>
+          <div class="section-body grid-2">
+            <div class="column-1" data-aos="slide-right" data-aos-duration="1000">
+              <h3 class="title-sm">Let's talk!</h3>
+              <p class="text">
+                Start a conversation 
+                <i class="fas fa-arrow-right"></i>
+              </p>
+            </div>
+
+            <div class="column-2" data-aos="slide-left" data-aos-duration="1000">
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Stockholm</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text"><a class="info-text" href="mailto:linda.andersson.work@gmail.com">linda.andersson.work@gmail.com  </a></p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">+46 76 82 22 455</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+    <footer class="page-footer">
+      <div class="footer-container">
+          <ul class="list-row">
+              <li class="list">
+                  <a href="https://github.com/lindacool" class="footer-links" target=”_blank” >
+                    <i class="fab fa-github"></i>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="https://www.linkedin.com/in/linda-andersson-4901071a9" class="footer-links" target=”_blank” >
+                    <i class="fab fa-linkedin"></i>
+                  </a>    
+              </li>
+              <li class="list" id="contact-us">
+                <a class="send-mail" href="mailto:linda.andersson.work@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                    
+              </li>
+          </ul>
+          <p class="copyright">
+            Copyright ©2021 All rights reserved | This template is made with by
+            <a href="#"> <span> Linda Andersson</span></a>
+        </p>
+      </div>
+  </footer>
+     <!--Scroll button-->
+     <div class="scroll-button" data-aos="fade">
+      <img src="img/icons8-chevron-up-90.png">
+    </div>
+  </main>
+
+  <!-- Loader -->
+  <!-- <span class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span> -->
+</section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./js/lottie.js"></script>
+    <script src="./js/app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBoJ1tfw2DtJh2raUNanKeU0h_RzFC5J_A",
+    authDomain: "lindaandersson-a171c.firebaseapp.com",
+    projectId: "lindaandersson-a171c",
+    storageBucket: "lindaandersson-a171c.appspot.com",
+    messagingSenderId: "322905773709",
+    appId: "1:322905773709:web:67f2bc1790461e1afcb4c4",
+    measurementId: "G-R1C3GL0GVY"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+  </body>
+</html>
