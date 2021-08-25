@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 :root {
   --dark-one: #333;
@@ -329,13 +330,15 @@ header {
 
 .header-title {
   margin-top: 150px;
-  margin-left: 12px;
+  margin-left: 10px;
   letter-spacing: 5px; 
   color: var(--main-text);
-  font-family: 'DM Serif Display';
-  font-size: 8rem;
-  font-weight: 500;
+  font-family: 'Italiana', serif;
   line-height: 0.8;
+}
+
+.header-content .LA{
+  font-size: 120px;
 }
 
 .header-content .text {
@@ -343,7 +346,8 @@ header {
   color: #f8f8f8;
   font-size: 50px;
   font-weight: 400;
-  margin-left: 12px;
+  padding-left: 10px;
+  font-family: 'Italiana', serif;
 }
 
 .cursor {
@@ -588,6 +592,12 @@ header .circle {
   
 }
 
+p.text-card{
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+
+}
+
 .card .text-card {
   color: rgb(252, 250, 250) ;
 }
@@ -619,9 +629,14 @@ header .circle {
 }
 
 .icon-cards{
-  margin-top: 20px;
-  width: 100px;
-  height: 100%;
+  padding-top: 43px;
+
+}
+
+.card .icon {
+  padding-top: 48px;
+  width: 105px;
+  background: transparent;
 }
 
 
@@ -1381,6 +1396,12 @@ padding-right: 2px;
     top: 54%;
   }
 
+
+.header-content .LA{
+  font-size: 100px;
+  line-height: 1;
+}
+
   /* .grid-item {
     width: 50%;
   } */
@@ -1448,6 +1469,13 @@ padding-right: 2px;;
 .card .icon {
   padding-top: 40px;
   width: 90px;
+
+}
+
+
+.cards .text-card{
+  margin: 0;
+  padding: 0px 0px 0px 0px;
 
 }
 }
@@ -1540,6 +1568,11 @@ padding-right: 2px;;
     top: 54%;
   }
 
+  .header-content .LA{
+    font-size: 60px;
+    line-height: 1;
+  }
+
   /* .grid-item {
     width: 50%;
   } */
@@ -1590,7 +1623,7 @@ padding-right: 2px;;
 
   .cards .text-card{
     margin: 0;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
 
   }
 
