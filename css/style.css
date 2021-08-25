@@ -747,7 +747,6 @@ p.text-card{
 .gallery-image {
   position: relative;
   overflow: hidden;
-  /* border-radius: 16px; */
   height: 330px;
   width: 100%;
   cursor: pointer;
@@ -1039,9 +1038,7 @@ footer .copyright{
   display: none;
   cursor: pointer;
   scroll-behavior: smooth;
-  /* background-color: #EADCCF; */
   border-radius: 50%;
-  /* border: 1px solid #EADCCF; */
   position: fixed;
   z-index: 100;
   bottom: 5vh;
@@ -1060,51 +1057,6 @@ footer .copyright{
 }
 
 
-/* Loader */
-/* .loading-main{
-  transition: opacity 5s ease-in;
-  display: none;
-  opacity: 0;
-}
-
-.loader{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 300px;
-  overflow: hidden;
- 
-}
-
-.loader > span {
-  display: inline-block;
-  background-color: hotpink;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  margin: 0 8px;
-  transition: translate3d(0);
-  animation: bounce 0.6s infinite alternate;
-}
-.loader > span:nth-child(2){
-  background-color: lightblue;
-  animation-delay: 0.2s;
-
-}
-
-.loader > span:nth-child(3){
-  background-color: hotpink;
-  animation-delay: 0.4s;
-
-}
-
-@keyframes bounce {
-  to {
-    width: 16px;
-    height: 16px;
-    transition: translate3d(0, -16px, 0);
-  }
-}  */
 /* Responsive */
 
 @media (max-width: 1280px) {
